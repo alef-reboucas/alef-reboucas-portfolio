@@ -1,3 +1,4 @@
+
 import { Navigation } from "@/components/Navigation";
 import { Mail, Linkedin } from "lucide-react";
 
@@ -17,7 +18,7 @@ export default function Index() {
             />
           </div>
           <div>
-            <h1 className="text-4xl md:text-6xl font-bold mb-6 fade-in text-white">
+            <h1 className="text-4xl md:text-6xl font-bold mb-6 fade-in text-[#201C91]">
               Álef Rebouças
             </h1>
             <p className="text-xl md:text-2xl max-w-2xl fade-in" style={{animationDelay: "0.2s"}}>

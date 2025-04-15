@@ -1,3 +1,4 @@
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -24,7 +25,7 @@
 
 @layer components {
   .section-title {
-    @apply text-3xl md:text-4xl font-semibold mb-8 text-white relative;
+    @apply text-3xl md:text-4xl font-semibold mb-8 text-[#201C91] relative;
   }
   
   .section-title::after {
@@ -33,7 +34,7 @@
   }
 
   .card {
-    @apply bg-[#222533] p-6 rounded-lg border border-[#2A2F40] transition-all duration-300 hover:border-[#9b87f5]/30 hover:shadow-lg hover:shadow-[#9b87f5]/5;
+    @apply bg-[#2A2F40] p-6 rounded-lg border border-[#32292F] transition-all duration-300 hover:border-[#9b87f5]/30 hover:shadow-lg hover:shadow-[#9b87f5]/5;
   }
 
   .nav-link {
