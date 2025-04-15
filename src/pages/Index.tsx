@@ -1,4 +1,3 @@
-
 import { Navigation } from "@/components/Navigation";
 import { Mail, Linkedin } from "lucide-react";
 
@@ -7,15 +6,24 @@ export default function Index() {
     <div className="min-h-screen" id="top">
       <Navigation />
       
-      {/* Hero Section */}
+      {/* Hero Section with Photo */}
       <header className="min-h-screen flex items-center pt-20 px-6">
-        <div className="container mx-auto max-w-4xl">
-          <h1 className="text-4xl md:text-6xl font-bold mb-6 fade-in">
-            Álef Rebouças
-          </h1>
-          <p className="text-xl md:text-2xl text-muted max-w-2xl fade-in" style={{animationDelay: "0.2s"}}>
-            Criando soluções que conectam tecnologia e pessoas através de produtos que fazem a diferença.
-          </p>
+        <div className="container mx-auto max-w-4xl flex items-center gap-8">
+          <div className="flex-shrink-0">
+            <img 
+              src="/placeholder.svg" 
+              alt="Álef Rebouças" 
+              className="w-64 h-64 object-cover rounded-full border-4 border-[#201C91] shadow-lg"
+            />
+          </div>
+          <div>
+            <h1 className="text-4xl md:text-6xl font-bold mb-6 fade-in text-white">
+              Álef Rebouças
+            </h1>
+            <p className="text-xl md:text-2xl max-w-2xl fade-in" style={{animationDelay: "0.2s"}}>
+              Criando soluções que conectam tecnologia e pessoas através de produtos que fazem a diferença.
+            </p>
+          </div>
         </div>
       </header>
 
