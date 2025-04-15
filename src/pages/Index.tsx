@@ -1,3 +1,4 @@
+
 import { Navigation } from "@/components/Navigation";
 import { Mail, Linkedin } from "lucide-react";
 
@@ -13,11 +14,11 @@ export default function Index() {
             <img 
               src="/placeholder.svg" 
               alt="Álef Rebouças" 
-              className="w-64 h-64 object-cover rounded-full border-4 border-[#ADB6C4] shadow-lg"
+              className="w-64 h-64 object-cover rounded-full border-4 border-[#F9C784] shadow-lg"
             />
           </div>
           <div>
-            <h1 className="text-4xl md:text-6xl font-bold mb-6 fade-in text-[#ADB6C4]">
+            <h1 className="text-4xl md:text-6xl font-bold mb-6 fade-in text-[#F9C784]">
               Álef Rebouças
             </h1>
             <p className="text-xl md:text-2xl max-w-2xl fade-in" style={{animationDelay: "0.2s"}}>
@@ -48,7 +49,7 @@ export default function Index() {
           <h2 className="section-title">Experiência Profissional</h2>
           <div className="space-y-8">
             <div className="card fade-in">
-              <h3 className="text-2xl font-semibold text-[#ADB6C4] mb-4">
+              <h3 className="text-2xl font-semibold text-[#9b87f5] mb-4">
                 Product Owner | Klok Tech
               </h3>
               <p className="text-sm text-muted mb-4">2022 – atual</p>
@@ -83,7 +84,7 @@ export default function Index() {
               <p className="text-muted">
                 Estruturação do processo de migração de +140 produtos financeiros
               </p>
-              <p className="text-[#ADB6C4] mt-4 text-sm">
+              <p className="text-[#9b87f5] mt-4 text-sm">
                 Redução do tempo de implantação de semanas para dias
               </p>
             </div>
