@@ -18,7 +18,7 @@ export const Navigation = () => {
     }`}>
       <div className="container mx-auto px-6">
         <div className="flex justify-between items-center">
-          <a href="#top" className="text-xl font-semibold text-[#F9C784]">Álef Rebouças</a>
+          <a href="#top" className="text-xl font-semibold text-[#ADB6C4]">Álef Rebouças</a>
           <div className="hidden md:flex space-x-8">
             <a href="#sobre" className="nav-link">Sobre</a>
             <a href="#experiencia" className="nav-link">Experiência</a>
