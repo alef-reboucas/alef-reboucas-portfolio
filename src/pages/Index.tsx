@@ -14,11 +14,11 @@ export default function Index() {
             <img 
               src="/placeholder.svg" 
               alt="Álef Rebouças" 
-              className="w-64 h-64 object-cover rounded-full border-4 border-[#201C91] shadow-lg"
+              className="w-64 h-64 object-cover rounded-full border-4 border-[#F9C784] shadow-lg"
             />
           </div>
           <div>
-            <h1 className="text-4xl md:text-6xl font-bold mb-6 fade-in text-[#201C91]">
+            <h1 className="text-4xl md:text-6xl font-bold mb-6 fade-in text-[#F9C784]">
               Álef Rebouças
             </h1>
             <p className="text-xl md:text-2xl max-w-2xl fade-in" style={{animationDelay: "0.2s"}}>
