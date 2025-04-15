@@ -105,7 +105,7 @@ export default function Index() {
           <h2 className="section-title">Contato</h2>
           <div className="flex flex-col md:flex-row gap-4">
             <a 
-              href="mailto:alef.reboucas@example.com" 
+              href="mailto:alefreboucas@gmail.com" 
               className="inline-flex items-center px-6 py-3 bg-[#9b87f5] hover:bg-[#8b77e5] transition-colors rounded-lg text-white font-medium"
             >
               <Mail className="w-5 h-5 mr-2" />
