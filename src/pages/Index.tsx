@@ -1,3 +1,4 @@
+
 import { Navigation } from "@/components/Navigation";
 import { Mail, Linkedin } from "lucide-react";
 
@@ -28,7 +29,7 @@ export default function Index() {
       </header>
 
       {/* About Section */}
-      <section id="sobre" className="py-20 px-6 bg-[#222533]">
+      <section id="sobre" className="py-20 px-6 bg-[#1A1F2C]">
         <div className="container mx-auto max-w-4xl">
           <h2 className="section-title text-[#F9C784]">Sobre mim</h2>
           <div className="space-y-6 text-muted">
