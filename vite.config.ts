@@ -11,12 +11,13 @@ export default defineConfig(({ mode }) => ({
   },
   plugins: [
     react(),
-    mode === 'development' &&
-    componentTagger(),
+    mode === 'development' && componentTagger(),
   ].filter(Boolean),
   resolve: {
     alias: {
       "@": path.resolve(__dirname, "./src"),
     },
   },
+  // Aqui vai a alteração
+  base: '/alef-reboucas-portfolio/', // Altere para o nome do seu repositório no GitHub
 }));
