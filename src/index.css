@@ -5,11 +5,11 @@
 @layer base {
   :root {
     --background: 230 20% 15%; /* #1C2543 */
-    --foreground: 220 20% 90%; /* #E7E9EE */
-    --primary: 220 20% 15%; /* #1C2543 */
-    --primary-dark: 220 20% 10%;
-    --accent: 4 55% 40%; /* #9E332C */
-    --muted: 220 20% 85%; /* #C2D0E5 */
+    --foreground: 220 20% 95%; /* #F0F2F5 */
+    --primary: 230 20% 15%; /* #1C2543 */
+    --primary-dark: 230 20% 10%;
+    --accent: 35 87% 67%; /* #F4B860 */
+    --muted: 220 20% 85%; /* #AAB8D0 */
     --border: 230 20% 20%;
   }
 
@@ -18,26 +18,26 @@
   }
 
   body {
-    @apply bg-[#1C2543] text-[#E7E9EE] font-['Inter'] antialiased;
+    @apply bg-[#1C2543] text-[#F0F2F5] font-['Inter'] antialiased;
   }
 }
 
 @layer components {
   .section-title {
-    @apply text-3xl md:text-4xl font-semibold mb-8 relative;
+    @apply text-3xl md:text-4xl font-semibold mb-8 text-[#F4B860] relative;
   }
   
   .section-title::after {
     content: '';
-    @apply absolute bottom-0 left-0 w-20 h-1 bg-[#F9C784] rounded;
+    @apply absolute bottom-0 left-0 w-20 h-1 bg-[#F4B860] rounded;
   }
 
   .card {
-    @apply bg-[#1C2543] p-6 rounded-lg border border-[#1C2543] transition-all duration-300 hover:border-[#9298C8]/30 hover:shadow-lg hover:shadow-[#9298C8]/5;
+    @apply bg-[#1C2543] p-6 rounded-lg border border-[#1C2543] transition-all duration-300 hover:border-[#6C74B7]/30 hover:shadow-lg hover:shadow-[#6C74B7]/5;
   }
 
   .nav-link {
-    @apply text-[#C2D0E5] hover:text-[#E7E9EE] transition-colors duration-200;
+    @apply text-[#AAB8D0] hover:text-[#F0F2F5] transition-colors duration-200;
   }
 }
 

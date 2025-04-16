@@ -1,4 +1,3 @@
-
 import { Navigation } from "@/components/Navigation";
 import { Mail, Linkedin, ArrowRight } from "lucide-react";
 import { Link } from "react-router-dom";
@@ -78,32 +77,31 @@ export default function Index() {
       {/* Cases Section */}
       <section id="cases" className="py-20 px-6">
         <div className="container mx-auto max-w-4xl">
-          <h2 className="section-title text-[#F9C784]">Cases de Produto</h2>
+          <h2 className="section-title">Cases de Produto</h2>
           <div className="grid md:grid-cols-2 gap-8">
-            <Link to="/case/migracao" className="card fade-in hover:translate-y-[-5px] transition-transform cursor-pointer group border border-[#9298C8]/20">
-              <h3 className="text-xl font-semibold mb-4 text-[#E7E9EE] group-hover:text-[#F9C784] transition-colors">
-                Migração de Produtos Financeiros
-              </h3>
-              <p className="text-[#C2D0E5]">
+            <Link to="/case/migracao" className="card fade-in border border-[#AAB8D0]/20 group hover:translate-y-[-5px] transition-transform">
+              <h3 className="text-xl font-semibold mb-4 text-[#F0F2F5]">Migração de Produtos Financeiros</h3>
+              <p className="text-[#AAB8D0]">
                 Estruturação do processo de migração de +140 produtos financeiros
               </p>
-              <p className="text-[#9298C8] mt-4 text-sm">
+              <p className="text-[#6C74B7] mt-4 text-sm">
                 Redução do tempo de implantação de semanas para dias
               </p>
               <div className="mt-4 flex justify-end">
-                <ArrowRight className="w-5 h-5 text-[#9b87f5] group-hover:text-[#F9C784] transition-colors" />
+                <ArrowRight className="w-5 h-5 text-[#AAB8D0] group-hover:text-[#F4B860] transition-colors" />
               </div>
             </Link>
             
-            <Link to="/case/pix" className="card fade-in hover:translate-y-[-5px] transition-transform cursor-pointer group border border-[#9298C8]/20" style={{animationDelay: "0.2s"}}>
-              <h3 className="text-xl font-semibold mb-4 text-[#E7E9EE] group-hover:text-[#F9C784] transition-colors">
-                Integração PIX
-              </h3>
-              <p className="text-[#C2D0E5]">
+            <Link to="/case/pix" className="card fade-in border border-[#AAB8D0]/20 group hover:translate-y-[-5px] transition-transform" style={{animationDelay: "0.2s"}}>
+              <h3 className="text-xl font-semibold mb-4 text-[#F0F2F5]">Integração PIX</h3>
+              <p className="text-[#AAB8D0]">
                 Implementação de pagamentos via PIX em produtos financeiros
               </p>
+              <p className="text-[#6C74B7] mt-4 text-sm">
+                Aumento de vendas com o meio de pagamento que mais cresce no Brasil
+              </p>
               <div className="mt-4 flex justify-end">
-                <ArrowRight className="w-5 h-5 text-[#9b87f5] group-hover:text-[#F9C784] transition-colors" />
+                <ArrowRight className="w-5 h-5 text-[#AAB8D0] group-hover:text-[#F4B860] transition-colors" />
               </div>
             </Link>
           </div>
@@ -113,23 +111,23 @@ export default function Index() {
       {/* Contact Section */}
       <section id="contato" className="py-20 px-6 bg-[#222533]">
         <div className="container mx-auto max-w-4xl">
-          <h2 className="section-title text-[#F9C784]">Contato</h2>
+          <h2 className="section-title">Contato</h2>
           <div className="flex flex-col md:flex-row gap-4">
-            <a 
-              href="mailto:alefreboucas@gmail.com" 
-              className="inline-flex items-center px-6 py-3 bg-[#9b87f5] hover:bg-[#8b77e5] transition-colors rounded-lg text-white font-medium"
-            >
-              <Mail className="w-5 h-5 mr-2" />
-              Fale comigo através do meu e-mail
-            </a>
             <a 
               href="https://linkedin.com/in/alefreboucas" 
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center px-6 py-3 bg-transparent hover:bg-white/5 border border-[#9b87f5] transition-colors rounded-lg text-white font-medium"
+              className="inline-flex items-center px-8 py-4 bg-[#6C74B7] hover:bg-[#5B63A6] transition-colors rounded-lg text-[#F0F2F5] font-medium text-lg shadow-lg hover:shadow-xl hover:translate-y-[-2px] transition-all"
             >
-              <Linkedin className="w-5 h-5 mr-2" />
-              Conecte-se comigo
+              <Linkedin className="w-6 h-6 mr-3" />
+              Conecte-se comigo!
+            </a>
+            <a 
+              href="mailto:alefreboucas@gmail.com" 
+              className="inline-flex items-center px-6 py-3 bg-transparent hover:bg-white/5 border border-[#AAB8D0] transition-colors rounded-lg text-[#F0F2F5] font-medium"
+            >
+              <Mail className="w-5 h-5 mr-2" />
+              Fale comigo através do meu e-mail
             </a>
           </div>
         </div>
