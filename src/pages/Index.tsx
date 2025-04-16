@@ -1,6 +1,7 @@
 
 import { Navigation } from "@/components/Navigation";
-import { Mail, Linkedin } from "lucide-react";
+import { Mail, Linkedin, ArrowRight } from "lucide-react";
+import { Link } from "react-router-dom";
 
 export default function Index() {
   return (
@@ -79,22 +80,32 @@ export default function Index() {
         <div className="container mx-auto max-w-4xl">
           <h2 className="section-title text-[#F9C784]">Cases de Produto</h2>
           <div className="grid md:grid-cols-2 gap-8">
-            <div className="card fade-in">
-              <h3 className="text-xl font-semibold mb-4 text-[#E7E9EE]">Migração de Produtos Financeiros</h3>
+            <Link to="/case/migracao" className="card fade-in hover:translate-y-[-5px] transition-transform cursor-pointer group">
+              <h3 className="text-xl font-semibold mb-4 text-[#E7E9EE] group-hover:text-[#F9C784] transition-colors">
+                Migração de Produtos Financeiros
+              </h3>
               <p className="text-[#C2D0E5]">
                 Estruturação do processo de migração de +140 produtos financeiros
               </p>
               <p className="text-[#9298C8] mt-4 text-sm">
                 Redução do tempo de implantação de semanas para dias
               </p>
-            </div>
+              <div className="mt-4 flex justify-end">
+                <ArrowRight className="w-5 h-5 text-[#9b87f5] group-hover:text-[#F9C784] transition-colors" />
+              </div>
+            </Link>
             
-            <div className="card fade-in" style={{animationDelay: "0.2s"}}>
-              <h3 className="text-xl font-semibold mb-4 text-[#E7E9EE]">Integração PIX</h3>
+            <Link to="/case/pix" className="card fade-in hover:translate-y-[-5px] transition-transform cursor-pointer group" style={{animationDelay: "0.2s"}}>
+              <h3 className="text-xl font-semibold mb-4 text-[#E7E9EE] group-hover:text-[#F9C784] transition-colors">
+                Integração PIX
+              </h3>
               <p className="text-[#C2D0E5]">
                 Implementação de pagamentos via PIX em produtos financeiros
               </p>
-            </div>
+              <div className="mt-4 flex justify-end">
+                <ArrowRight className="w-5 h-5 text-[#9b87f5] group-hover:text-[#F9C784] transition-colors" />
+              </div>
+            </Link>
           </div>
         </div>
       </section>
