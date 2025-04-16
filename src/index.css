@@ -1,17 +1,16 @@
-
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 @layer base {
   :root {
-    --background: 9 13% 7%; /* #101219 */
-    --foreground: 20 5% 49%; /* #857e7b warm gray for text */
-    --primary: 42 93% 66%; /* #F9C784 */
-    --primary-dark: 42 93% 56%;
-    --accent: 240 50% 60%;
-    --muted: 220 14% 80%;
-    --border: 9 13% 5%;
+    --background: 230 20% 15%; /* #1C2543 */
+    --foreground: 220 20% 90%; /* #E7E9EE */
+    --primary: 220 20% 15%; /* #1C2543 */
+    --primary-dark: 220 20% 10%;
+    --accent: 4 55% 40%; /* #9E332C */
+    --muted: 220 20% 85%; /* #C2D0E5 */
+    --border: 230 20% 20%;
   }
 
   html {
@@ -19,26 +18,26 @@
   }
 
   body {
-    @apply bg-[#101219] text-[#FCFCFD] font-['Inter'] antialiased;
+    @apply bg-[#1C2543] text-[#E7E9EE] font-['Inter'] antialiased;
   }
 }
 
 @layer components {
   .section-title {
-    @apply text-3xl md:text-4xl font-semibold mb-8 text-[#9298C8] relative;
+    @apply text-3xl md:text-4xl font-semibold mb-8 text-[#9E332C] relative;
   }
   
   .section-title::after {
     content: '';
-    @apply absolute bottom-0 left-0 w-20 h-1 bg-[#9298C8] rounded;
+    @apply absolute bottom-0 left-0 w-20 h-1 bg-[#9E332C] rounded;
   }
 
   .card {
-    @apply bg-[#2A2F40] p-6 rounded-lg border border-[#101219] transition-all duration-300 hover:border-[#9E332E]/30 hover:shadow-lg hover:shadow-[#9E332E]/5;
+    @apply bg-[#1C2543] p-6 rounded-lg border border-[#1C2543] transition-all duration-300 hover:border-[#9298C8]/30 hover:shadow-lg hover:shadow-[#9298C8]/5;
   }
 
   .nav-link {
-    @apply text-muted hover:text-white transition-colors duration-200;
+    @apply text-[#C2D0E5] hover:text-[#E7E9EE] transition-colors duration-200;
   }
 }
 

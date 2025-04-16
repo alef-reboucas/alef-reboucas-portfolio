@@ -1,4 +1,3 @@
-
 import { Navigation } from "@/components/Navigation";
 import { Mail, Linkedin } from "lucide-react";
 
@@ -80,18 +79,18 @@ export default function Index() {
           <h2 className="section-title">Cases de Produto</h2>
           <div className="grid md:grid-cols-2 gap-8">
             <div className="card fade-in">
-              <h3 className="text-xl font-semibold mb-4">Migração de Produtos Financeiros</h3>
-              <p className="text-muted">
+              <h3 className="text-xl font-semibold mb-4 text-[#E7E9EE]">Migração de Produtos Financeiros</h3>
+              <p className="text-[#C2D0E5]">
                 Estruturação do processo de migração de +140 produtos financeiros
               </p>
-              <p className="text-[#9b87f5] mt-4 text-sm">
+              <p className="text-[#9298C8] mt-4 text-sm">
                 Redução do tempo de implantação de semanas para dias
               </p>
             </div>
             
             <div className="card fade-in" style={{animationDelay: "0.2s"}}>
-              <h3 className="text-xl font-semibold mb-4">Integração PIX</h3>
-              <p className="text-muted">
+              <h3 className="text-xl font-semibold mb-4 text-[#E7E9EE]">Integração PIX</h3>
+              <p className="text-[#C2D0E5]">
                 Implementação de pagamentos via PIX em produtos financeiros
               </p>
             </div>
