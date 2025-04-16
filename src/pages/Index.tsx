@@ -28,9 +28,9 @@ export default function Index() {
       </header>
 
       {/* About Section */}
-      <section id="sobre" className="py-20 px-6">
+      <section id="sobre" className="py-20 px-6 bg-[#222533]">
         <div className="container mx-auto max-w-4xl">
-          <h2 className="section-title">Sobre mim</h2>
+          <h2 className="section-title text-[#F9C784]">Sobre mim</h2>
           <div className="space-y-6 text-muted">
             <p className="fade-in">
               Como Gerente de Produto, lidero squads multidisciplinares aplicando metodologias ágeis e processos bem definidos, garantindo entregas consistentes mesmo sob pressão e com recursos limitados. Minha atuação combina visão estratégica com foco na execução, gerando impacto real nos indicadores de negócio.
@@ -45,7 +45,7 @@ export default function Index() {
       {/* Experience Section */}
       <section id="experiencia" className="py-20 px-6 bg-[#222533]">
         <div className="container mx-auto max-w-4xl">
-          <h2 className="section-title">Experiência Profissional</h2>
+          <h2 className="section-title text-[#F9C784]">Experiência Profissional</h2>
           <div className="space-y-8">
             <div className="card fade-in">
               <h3 className="text-2xl font-semibold text-[#9b87f5] mb-4">
@@ -76,7 +76,7 @@ export default function Index() {
       {/* Cases Section */}
       <section id="cases" className="py-20 px-6">
         <div className="container mx-auto max-w-4xl">
-          <h2 className="section-title">Cases de Produto</h2>
+          <h2 className="section-title text-[#F9C784]">Cases de Produto</h2>
           <div className="grid md:grid-cols-2 gap-8">
             <div className="card fade-in">
               <h3 className="text-xl font-semibold mb-4 text-[#E7E9EE]">Migração de Produtos Financeiros</h3>
@@ -101,7 +101,7 @@ export default function Index() {
       {/* Contact Section */}
       <section id="contato" className="py-20 px-6 bg-[#222533]">
         <div className="container mx-auto max-w-4xl">
-          <h2 className="section-title">Contato</h2>
+          <h2 className="section-title text-[#F9C784]">Contato</h2>
           <div className="flex flex-col md:flex-row gap-4">
             <a 
               href="mailto:alefreboucas@gmail.com" 
