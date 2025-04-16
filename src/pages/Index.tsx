@@ -80,7 +80,7 @@ export default function Index() {
         <div className="container mx-auto max-w-4xl">
           <h2 className="section-title text-[#F9C784]">Cases de Produto</h2>
           <div className="grid md:grid-cols-2 gap-8">
-            <Link to="/case/migracao" className="card fade-in hover:translate-y-[-5px] transition-transform cursor-pointer group">
+            <Link to="/case/migracao" className="card fade-in hover:translate-y-[-5px] transition-transform cursor-pointer group border border-[#9298C8]/20">
               <h3 className="text-xl font-semibold mb-4 text-[#E7E9EE] group-hover:text-[#F9C784] transition-colors">
                 Migração de Produtos Financeiros
               </h3>
@@ -95,7 +95,7 @@ export default function Index() {
               </div>
             </Link>
             
-            <Link to="/case/pix" className="card fade-in hover:translate-y-[-5px] transition-transform cursor-pointer group" style={{animationDelay: "0.2s"}}>
+            <Link to="/case/pix" className="card fade-in hover:translate-y-[-5px] transition-transform cursor-pointer group border border-[#9298C8]/20" style={{animationDelay: "0.2s"}}>
               <h3 className="text-xl font-semibold mb-4 text-[#E7E9EE] group-hover:text-[#F9C784] transition-colors">
                 Integração PIX
               </h3>
@@ -120,7 +120,7 @@ export default function Index() {
               className="inline-flex items-center px-6 py-3 bg-[#9b87f5] hover:bg-[#8b77e5] transition-colors rounded-lg text-white font-medium"
             >
               <Mail className="w-5 h-5 mr-2" />
-              E-mail
+              Fale comigo através do meu e-mail
             </a>
             <a 
               href="https://linkedin.com/in/alefreboucas" 
@@ -129,7 +129,7 @@ export default function Index() {
               className="inline-flex items-center px-6 py-3 bg-transparent hover:bg-white/5 border border-[#9b87f5] transition-colors rounded-lg text-white font-medium"
             >
               <Linkedin className="w-5 h-5 mr-2" />
-              LinkedIn
+              Conecte-se comigo
             </a>
           </div>
         </div>
