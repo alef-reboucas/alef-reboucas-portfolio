@@ -12,7 +12,7 @@ export default function Index() {
         <div className="container mx-auto max-w-4xl flex items-center gap-8">
           <div className="flex-shrink-0">
             <img 
-              src="/2025-03-20-00021-RPE_MAR.JPEG" 
+              src="/2025-03-20-00021-RPE_MAR.jpg" 
               alt="Álef Rebouças" 
               className="w-64 h-64 object-cover rounded-full border-4 border-[#F9C784] shadow-lg"
             />
