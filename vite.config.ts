@@ -6,8 +6,8 @@ import { componentTagger } from "lovable-tagger";
 // https://vitejs.dev/config/
 export default defineConfig(({ mode }) => ({
   server: {
-    host: "::",
-    port: 8080,
+    host: true,
+    port: 5173,
   },
   plugins: [
     react(),
@@ -18,6 +18,5 @@ export default defineConfig(({ mode }) => ({
       "@": path.resolve(__dirname, "./src"),
     },
   },
-  // Aqui vai a alteração
-  base: '/alef-reboucas-portfolio/', // Altere para o nome do seu repositório no GitHub
+  base: mode === 'production' ? '/alef-reboucas-portfolio/' : '/',
 }));
