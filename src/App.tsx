@@ -1,3 +1,4 @@
+
 import { Toaster } from "@/components/ui/toaster";
 import { Toaster as Sonner } from "@/components/ui/sonner";
 import { TooltipProvider } from "@/components/ui/tooltip";
@@ -8,6 +9,7 @@ import NotFound from "./pages/NotFound";
 import CaseMigracao from "./pages/CaseMigracao";
 import CasePix from "./pages/CasePix";
 import CaseOdin from "./pages/CaseOdin";
+import CaseWhiteLabel from "./pages/CaseWhiteLabel";
 
 const queryClient = new QueryClient();
 
@@ -21,6 +23,7 @@ const App = () => (
           <Route path="/" element={<Index />} />
           <Route path="/case/migracao" element={<CaseMigracao />} />
           <Route path="/case/odin" element={<CaseOdin />} />
+          <Route path="/case/white-label" element={<CaseWhiteLabel />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
         </Routes>

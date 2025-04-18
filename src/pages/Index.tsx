@@ -1,3 +1,4 @@
+
 import { Navigation } from "@/components/Navigation";
 import { Mail, Linkedin, ArrowRight, ArrowDown } from "lucide-react";
 import { Link } from "react-router-dom";
@@ -88,6 +89,19 @@ export default function Index() {
               </p>
               <p className="text-[#6C74B7] mt-4 text-sm">
                 Inteligência artificial aplicada ao fitness
+              </p>
+              <div className="mt-4 flex justify-end">
+                <ArrowRight className="w-5 h-5 text-[#AAB8D0] group-hover:text-[#F4B860] transition-colors" />
+              </div>
+            </Link>
+
+            <Link to="/case/white-label" className="card fade-in border border-[#AAB8D0]/20 group hover:translate-y-[-5px] transition-transform" style={{animationDelay: "0.4s"}}>
+              <h3 className="text-xl font-semibold mb-4 text-[#F0F2F5]">Plataforma White-Label para Venda de produtos financeiros</h3>
+              <p className="text-[#AAB8D0]">
+                Construção de uma plataforma white-label para venda de produtos financeiros
+              </p>
+              <p className="text-[#6C74B7] mt-4 text-sm">
+                Distribuição de produtos financeiros
               </p>
               <div className="mt-4 flex justify-end">
                 <ArrowRight className="w-5 h-5 text-[#AAB8D0] group-hover:text-[#F4B860] transition-colors" />
