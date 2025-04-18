@@ -84,10 +84,10 @@ export default function Index() {
             <Link to="/case/migracao" className="card fade-in border border-[#AAB8D0]/20 group hover:translate-y-[-5px] transition-transform" style={{animationDelay: "0.2s"}}>
               <h3 className="text-xl font-semibold mb-4 text-[#F0F2F5]">Migração de Produtos Financeiros</h3>
               <p className="text-[#AAB8D0]">
-                Estruturação do processo de migração de +140 de produtos financeiros
+                Estruturação do processo de migração de +150 de produtos financeiros
               </p>
               <p className="text-[#6C74B7] mt-4 text-sm">
-                Redução do tempo de implantação de semanas para dias
+                Liderando a migração de +150 produtos financeiros
               </p>
               <div className="mt-4 flex justify-end">
                 <ArrowRight className="w-5 h-5 text-[#AAB8D0] group-hover:text-[#F4B860] transition-colors" />
