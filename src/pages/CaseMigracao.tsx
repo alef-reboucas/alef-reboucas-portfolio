@@ -19,33 +19,65 @@ export default function CaseMigracao() {
           </Link>
           
           <h1 className="text-3xl md:text-4xl font-bold mb-8 text-[#F9C784]">
-            Migração de Produtos Financeiros
+            🚀 Case: Implantação e Migração de mais de 150 Produtos Financeiros em Cartões Private Label
           </h1>
           
-          <div className="space-y-6 text-[#E7E9EE]">
-            <p>
-              Estruturação do processo de migração de mais de 140 produtos financeiros, reduzindo significativamente 
-              o tempo de implantação de semanas para dias.
-            </p>
-            
-            <h2 className="text-2xl font-semibold mt-10 mb-4 text-[#F9C784]">O Desafio</h2>
-            <p>
-              A necessidade de migrar uma grande quantidade de produtos financeiros para uma nova plataforma, 
-              mantendo a integridade dos dados e minimizando o impacto para os usuários finais.
-            </p>
-            
-            <h2 className="text-2xl font-semibold mt-10 mb-4 text-[#F9C784]">A Solução</h2>
-            <p>
-              Desenvolvimento de um processo estruturado de migração, com etapas claras de validação e 
-              estratégias eficientes de implementação em lote.
-            </p>
-            
-            <h2 className="text-2xl font-semibold mt-10 mb-4 text-[#F9C784]">Resultados</h2>
-            <ul className="list-disc pl-6 space-y-2">
-              <li>Redução do tempo de implantação de semanas para dias</li>
-              <li>Aumento da confiabilidade do processo de migração</li>
-              <li>Melhoria na experiência do usuário final durante transições</li>
-            </ul>
+          <div className="space-y-8 text-[#E7E9EE]">
+            <section>
+              <h2 className="text-2xl font-semibold mb-4 text-[#F9C784]">🎯 O Desafio</h2>
+              <div className="space-y-4">
+                <p>
+                  Com um cenário de alta complexidade e múltiplos stakeholders — incluindo processadoras de cartões, 
+                  times internos da Klok, seguradoras, varejistas e empresas de capitalização — a Klok assumiu a 
+                  missão de migrar mais de 150 seguros e assistências para sua plataforma. Cada produto tinha 
+                  características únicas e exigia uma abordagem personalizada. Além disso, o fator tempo era crítico: 
+                  a cada semana sem migração, havia perda direta de receita.
+                </p>
+                <p>
+                  O projeto também envolvia forte dependência de contratos comerciais, o que exigia um planejamento 
+                  dinâmico e sensível ao ritmo de fechamento dos acordos.
+                </p>
+              </div>
+            </section>
+
+            <section>
+              <h2 className="text-2xl font-semibold mb-4 text-[#F9C784]">🛠️ A Abordagem</h2>
+              <div className="space-y-4">
+                <p>
+                  À frente da iniciativa, Alef atuou como Product Owner e Gerente de Projetos, sendo responsável 
+                  por estruturar um processo padronizado, escalável e previsível para conduzir as migrações. 
+                  Para isso, implementou:
+                </p>
+                <ul className="list-disc pl-6 space-y-2">
+                  <li>Um pipeline com etapas bem definidas e ritos de acompanhamento;</li>
+                  <li>Um planejamento anual da esteira, com previsão inclusive de novos produtos ainda em fase de negociação;</li>
+                  <li>Um modelo de <strong className="text-[#F9C784]">"slots"</strong> que oferecia visibilidade ao time comercial sobre a capacidade de implantação;</li>
+                  <li>Priorização baseada em matriz impacto-esforço;</li>
+                  <li>Ferramentas como Jira e MS Project para controle e execução.</li>
+                </ul>
+                <p>
+                  A comunicação foi um dos pilares do sucesso. Alef organizou checkpoints semanais com stakeholders 
+                  da Klok e da processadora, além de reuniões específicas para cada produto com a presença dos 
+                  executivos responsáveis pelo varejo, seguradora, processadora e Klok.
+                </p>
+              </div>
+            </section>
+
+            <section>
+              <h2 className="text-2xl font-semibold mb-4 text-[#F9C784]">📈 Os Resultados</h2>
+              <div className="space-y-4">
+                <p>
+                  Em um período de 1 ano e meio, foram migrados com sucesso <strong className="text-[#F9C784]">mais de 150 produtos</strong>, 
+                  incluindo seguros prestamistas, bolsa protegida, assistência saúde e odontológica, garantia 
+                  estendida, roubo/furto qualificado, entre outros.
+                </p>
+                <p>
+                  O projeto foi concluído <strong className="text-[#F9C784]">sem falhas críticas em produção</strong>, consolidando a 
+                  credibilidade técnica da Klok e gerando valor direto aos varejistas por meio de melhorias 
+                  implementadas já durante o processo de migração.
+                </p>
+              </div>
+            </section>
           </div>
         </div>
       </div>
