@@ -1,4 +1,3 @@
-
 import { ArrowLeft } from "lucide-react";
 import { Link } from "react-router-dom";
 import { Navigation } from "@/components/Navigation";
@@ -85,6 +84,16 @@ export default function CaseMigracao() {
             </section>
           </div>
         </div>
+      </div>
+
+      <div className="mt-12 text-center">
+        <Link 
+          to="/"
+          className="inline-flex items-center px-6 py-3 bg-[#F9C784] text-[#1C2543] rounded-full font-semibold hover:bg-[#F9C784]/90 transition-colors"
+        >
+          <ArrowLeft className="w-5 h-5 mr-2" />
+          Voltar para a página inicial
+        </Link>
       </div>
     </div>
   );
