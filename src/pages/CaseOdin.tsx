@@ -2,8 +2,13 @@
 import { ArrowLeft } from "lucide-react";
 import { Link } from "react-router-dom";
 import { Navigation } from "@/components/Navigation";
+import { useEffect } from "react";
 
 export default function CaseOdin() {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   return (
     <div className="min-h-screen">
       <Navigation />
@@ -116,4 +121,3 @@ export default function CaseOdin() {
     </div>
   );
 }
-
