@@ -1,3 +1,4 @@
+
 import { useState, useEffect } from 'react';
 
 export const Navigation = () => {
@@ -19,10 +20,10 @@ export const Navigation = () => {
         <div className="flex justify-between items-center">
           <a href="#top" className="text-xl font-semibold text-[#F4B860]">Álef Rebouças</a>
           <div className="hidden md:flex space-x-8">
-            <a href="#sobre" className="nav-link">Sobre</a>
-            <a href="#experiencia" className="nav-link">Experiência</a>
-            <a href="#cases" className="nav-link">Cases</a>
-            <a href="#contato" className="nav-link">Contato</a>
+            <a href="#sobre" className="nav-link text-[#F4B860] hover:text-[#F4B860]/80">Sobre</a>
+            <a href="#experiencia" className="nav-link text-[#F4B860] hover:text-[#F4B860]/80">Experiência</a>
+            <a href="#cases" className="nav-link text-[#F4B860] hover:text-[#F4B860]/80">Cases</a>
+            <a href="#contato" className="nav-link text-[#F4B860] hover:text-[#F4B860]/80">Contato</a>
           </div>
         </div>
       </div>

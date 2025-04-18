@@ -1,5 +1,6 @@
+
 import { Navigation } from "@/components/Navigation";
-import { Mail, Linkedin, ArrowRight } from "lucide-react";
+import { Mail, Linkedin, ArrowRight, ArrowDown } from "lucide-react";
 import { Link } from "react-router-dom";
 
 export default function Index() {
@@ -9,22 +10,42 @@ export default function Index() {
       
       {/* Hero Section with Photo */}
       <header className="min-h-screen flex items-center pt-20 px-6">
-        <div className="container mx-auto max-w-4xl flex items-center gap-8">
-          <div className="flex-shrink-0">
-            <img 
-              src="/2025-03-20-00021-RPE_MAR.jpg" 
-              alt="Álef Rebouças" 
-              className="w-64 h-64 object-cover rounded-full border-4 border-[#F9C784] shadow-lg"
-            />
+        <div className="container mx-auto max-w-4xl flex flex-col items-center">
+          <div className="flex items-center gap-8 mb-12">
+            <div className="flex-shrink-0">
+              <img 
+                src="/2025-03-20-00021-RPE_MAR.jpg" 
+                alt="Álef Rebouças" 
+                className="w-64 h-64 object-cover rounded-full border-4 border-[#F9C784] shadow-lg"
+              />
+            </div>
+            <div>
+              <h1 className="text-4xl md:text-6xl font-bold mb-6 fade-in text-[#F9C784]">
+                Álef Rebouças
+              </h1>
+              <p className="text-xl md:text-2xl max-w-2xl fade-in" style={{animationDelay: "0.2s"}}>
+                Criando soluções que conectam tecnologia e pessoas através de produtos que fazem a diferença.
+              </p>
+            </div>
           </div>
-          <div>
-            <h1 className="text-4xl md:text-6xl font-bold mb-6 fade-in text-[#F9C784]">
-              Álef Rebouças
-            </h1>
-            <p className="text-xl md:text-2xl max-w-2xl fade-in" style={{animationDelay: "0.2s"}}>
-              Criando soluções que conectam tecnologia e pessoas através de produtos que fazem a diferença.
-            </p>
-          </div>
+
+          {/* New CTA Button */}
+          <a 
+            href="https://linkedin.com/in/alefreboucas"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center px-8 py-4 bg-[#F9C784] hover:bg-[#F9C784]/90 text-[#1A1F2C] rounded-full font-semibold text-lg shadow-lg hover:shadow-xl transition-all duration-300 mb-8 fade-in"
+            style={{animationDelay: "0.4s"}}
+          >
+            <Linkedin className="w-5 h-5 mr-2" />
+            Fale comigo
+          </a>
+
+          {/* Scroll Indicator */}
+          <p className="text-sm text-[#AAB8D0] flex items-center gap-2 fade-in" style={{animationDelay: "0.6s"}}>
+            <ArrowDown className="w-4 h-4 animate-bounce" />
+            Role para ver mais
+          </p>
         </div>
       </header>
 
