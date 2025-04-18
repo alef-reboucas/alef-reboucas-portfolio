@@ -63,41 +63,10 @@ export default function Index() {
         </div>
       </section>
 
-      {/* Experience Section */}
-      <section id="experiencia" className="py-20 px-6 bg-[#222533]">
-        <div className="container mx-auto max-w-4xl">
-          <h2 className="section-title text-[#F9C784]">Experiência Profissional</h2>
-          <div className="space-y-8">
-            <div className="card fade-in">
-              <h3 className="text-2xl font-semibold text-[#9b87f5] mb-4">
-                Product Owner | Klok Tech
-              </h3>
-              <p className="text-sm text-muted mb-4">2022 – atual</p>
-              <ul className="space-y-2 text-muted">
-                <li>• Liderança de squad com 15 pessoas</li>
-                <li>• Criação e evolução de produtos financeiros massificados</li>
-                <li>• Gestão de roadmap, discovery, homologação e comunicação com stakeholders</li>
-              </ul>
-            </div>
-            
-            <div className="card fade-in" style={{animationDelay: "0.2s"}}>
-              <h3 className="text-2xl font-semibold text-[#9b87f5] mb-4">
-                Coordenador Regional | Bee Delivery
-              </h3>
-              <p className="text-sm text-muted mb-4">2020 – 2021</p>
-              <ul className="space-y-2 text-muted">
-                <li>• Ativação de 5 operações próprias e liderança comercial em 3 capitais</li>
-                <li>• Gestão de equipe e relacionamento com clientes B2B</li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </section>
-
       {/* Cases Section */}
       <section id="cases" className="py-20 px-6">
         <div className="container mx-auto max-w-4xl">
-          <h2 className="section-title">Cases de Produto</h2>
+          <h2 className="section-title">Cases</h2>
           <div className="grid md:grid-cols-2 gap-8">
             <Link to="/case/migracao" className="card fade-in border border-[#AAB8D0]/20 group hover:translate-y-[-5px] transition-transform">
               <h3 className="text-xl font-semibold mb-4 text-[#F0F2F5]">Migração de Produtos Financeiros</h3>
