@@ -95,9 +95,25 @@ export default function CaseOdin() {
                 <li>Quando você é o único usuário, o ciclo de feedback é instantâneo — e isso acelera muito a evolução</li>
               </ul>
             </section>
+
+            <section>
+              <h2 className="text-2xl font-semibold mb-4 text-[#F9C784]">🔗 Mais Detalhes</h2>
+              <p className="leading-relaxed">
+                Veja o meu post no LinkedIn com mais detalhes:{' '}
+                <a 
+                  href="https://www.linkedin.com/posts/alefreboucas_como-umbom-produteiro-j%C3%A1-participei-activity-7250625529056247809-wfR3?utm_source=share&utm_medium=member_desktop&rcm=ACoAACOE_woB6TTaArr1RCc3R7v5XNCFqDwGlKY" 
+                  target="_blank" 
+                  rel="noopener noreferrer" 
+                  className="text-[#F9C784] hover:underline"
+                >
+                  Leia o post completo no LinkedIn
+                </a>
+              </p>
+            </section>
           </div>
         </div>
       </div>
     </div>
   );
 }
+
